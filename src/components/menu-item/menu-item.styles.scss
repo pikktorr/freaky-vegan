@@ -5,8 +5,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid black;
   margin: 0 7.5px 15px;
+  background-position: center;
+  background-size: cover;
+
+  &.large {
+    height: 350px;
+  }
 
   &:first-child {
     margin-right: 7.5px;
@@ -17,24 +22,32 @@
   }
 
   .content {
-    height: 90px;
-    padding: 0 25px;
+    height: auto;
+    padding: 5px 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 2px solid black;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: background-color 0.5s;
 
     .title {
       font-weight: bold;
       margin-bottom: 6px;
       font-size: 22px;
-      color: #4a4a4a;
+      color: #3b3b3b;
+      text-transform: uppercase;
     }
 
     .subtitle {
-      font-weight: lighter;
+      font-weight: light;
       font-size: 16px;
+    }
+
+    &:hover {
+      cursor: pointer;
+      background-color: rgb(255, 255, 255);
     }
   }
 }
