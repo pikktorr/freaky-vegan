@@ -1,0 +1,27 @@
+.header {
+  align-items: center;
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+  .logo-container {
+    margin-left: 2rem;
+    width: 42px;
+    .logo {
+      width: 100%;
+    }
+  }
+
+  .navbar {
+    display: flex;
+    font-size: 20px;
+    font-weight: normal;
+    justify-content: flex-end;
+    width: 50%;
+
+    .nav-item {
+      padding-left: 2rem;
+    }
+  }
+}
