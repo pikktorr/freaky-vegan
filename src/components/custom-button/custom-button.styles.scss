@@ -1,6 +1,9 @@
 button {
   background-color: transparent;
   font-family: inherit;
+  &:focus {
+    outline: none;
+  }
 }
 
 .custom-button {
@@ -17,5 +20,8 @@ button {
   &:hover {
     background-color: #06aa51;
     color: white;
+  }
+  &:focus {
+    background-color: #055a2b;
   }
 }
