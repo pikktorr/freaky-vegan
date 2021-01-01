@@ -1,0 +1,21 @@
+button {
+  background-color: transparent;
+  font-family: inherit;
+}
+
+.custom-button {
+  border: 1px solid #06aa51;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: normal;
+  height: 42px;
+  min-width: 120px;
+  text-transform: uppercase;
+  width: auto;
+
+  &:hover {
+    background-color: #06aa51;
+    color: white;
+  }
+}
