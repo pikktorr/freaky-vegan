@@ -13,15 +13,17 @@ button {
   font-size: 16px;
   font-weight: normal;
   height: 42px;
-  min-width: 120px;
   text-transform: uppercase;
-  width: auto;
+  width: 120px;
 
-  &:hover {
-    background-color: #06aa51;
-    color: white;
-  }
   &:focus {
-    background-color: #055a2b;
+    border: 3px solid #06aa51;
+  }
+
+  &.google-sign-in {
+    border: 1px solid #4285f4;
+    &:focus {
+      border: 3px solid #4285f4;
+    }
   }
 }

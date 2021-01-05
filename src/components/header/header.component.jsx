@@ -1,11 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import { auth } from "../../firebase/firebase.utils";
 import { ReactComponent as Logo } from "../../assets/green-leaf-vegan-icon-by-Vexels.svg";
 
 import "./header.styles.scss";
 
-const Header = () => (
+// FIREBASE AUTHENTICATION LOGOUT
+const signOut = () => auth.signOut();
+
+const Header = ({ currentUser }) => (
   <div className="header">
     <Link className="logo-container" to="/">
       <Logo className="logo" />
@@ -20,9 +24,15 @@ const Header = () => (
       <Link className="nav-item" to="/contact">
         Contact
       </Link>
-      <Link className="nav-item" to="/signin">
-        Sign In
-      </Link>
+      {currentUser ? (
+        <div className="nav-item sign-out" onClick={signOut}>
+          Sign Out
+        </div>
+      ) : (
+        <Link className="nav-item" to="/signin">
+          Sign In
+        </Link>
+      )}
     </div>
   </div>
 );
