@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { connect } from "react-redux";
 
 import { auth } from "../../firebase/firebase.utils";
 import { ReactComponent as Logo } from "../../assets/green-leaf-vegan-icon-by-Vexels.svg";
@@ -37,4 +38,11 @@ const Header = ({ currentUser }) => (
   </div>
 );
 
-export default Header;
+// returns state from user reducer via root reducer
+const mapStateToProps = (state) => ({
+  currentUser: state.user.currentUser,
+});
+
+// connect is HIGHER ORDER COMPONENT
+// pass props into header component from state
+export default connect(mapStateToProps)(Header);
