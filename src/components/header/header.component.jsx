@@ -5,12 +5,12 @@ import { connect } from "react-redux";
 import { auth } from "../../firebase/firebase.utils";
 import { ReactComponent as Logo } from "../../assets/green-leaf-vegan-icon-by-Vexels.svg";
 
+import CartIcon from "../cart-icon/cart-icon.component";
+import CartDropdown from "../cart-dropdown/cart-dropdown.component";
+
 import "./header.styles.scss";
 
-// FIREBASE AUTHENTICATION LOGOUT
-const signOut = () => auth.signOut();
-
-const Header = ({ currentUser }) => (
+const Header = ({ currentUser, hidden }) => (
   <div className="header">
     <Link className="logo-container" to="/">
       <Logo className="logo" />
@@ -26,7 +26,7 @@ const Header = ({ currentUser }) => (
         Contact
       </Link>
       {currentUser ? (
-        <div className="nav-item sign-out" onClick={signOut}>
+        <div className="nav-item sign-out" onClick={() => auth.signOut()}>
           Sign Out
         </div>
       ) : (
@@ -34,13 +34,16 @@ const Header = ({ currentUser }) => (
           Sign In
         </Link>
       )}
+      <CartIcon />
     </div>
+    {hidden ? null : <CartDropdown />}
   </div>
 );
 
 // returns state from user reducer via root reducer
-const mapStateToProps = (state) => ({
-  currentUser: state.user.currentUser,
+const mapStateToProps = ({ user: { currentUser }, cart: { hidden } }) => ({
+  currentUser,
+  hidden,
 });
 
 // connect is HIGHER ORDER COMPONENT

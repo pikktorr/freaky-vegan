@@ -1,14 +1,16 @@
+import { userActionTypes } from "./user.types";
+
 // DEFAULT STATE ON USER
 const INITIAL_STATE = {
   currentUser: null,
 };
 
-// FUNCTION WITH DATA AND ACTION 
+// FUNCTION WITH DATA AND ACTION
 const userReducer = (currentState = INITIAL_STATE, action) => {
   // if action type is...
   switch (action.type) {
     // ...this value, then...
-    case "SET_CURRENT_USER":
+    case userActionTypes.SET_CURRENT_USER:
       // ...return the whole old state with all the new changes on state
       return {
         // passing in the current old state

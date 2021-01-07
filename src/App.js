@@ -1,6 +1,6 @@
 // REACT
 import React from "react";
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route, Redirect } from "react-router-dom";
 import { connect } from "react-redux";
 
 // COMPONENTS
@@ -33,10 +33,8 @@ class App extends React.Component {
         userRef.onSnapshot((userSnapShot) => {
           setCurrentUser({
             id: userSnapShot.id,
-            ...userSnapShot.data(), //displayName: "one collider", email: "collider.one@gmail.com"
+            ...userSnapShot.data(),
           });
-
-          console.log(this.props.setCurrentUser);
         });
       } else {
         setCurrentUser(userAuth);
@@ -56,15 +54,30 @@ class App extends React.Component {
         <Switch>
           <Route exact path="/" component={Homepage} />
           <Route exact path="/shop" component={ShopPage} />
-          <Route exact path="/signin" component={SignPage} />
+          <Route
+            exact
+            path="/signin"
+            render={() => {
+              return this.props.currentUser ? (
+                <Redirect to="/" />
+              ) : (
+                <SignPage />
+              );
+            }}
+          />
         </Switch>
       </div>
     );
   }
 }
 
+// we need state, hence using this
+const mapStateToProps = ({ user }) => ({
+  currentUser: user.currentUser,
+});
+
 const mapDispatchToProps = (dispatch) => ({
   setCurrentUser: (user) => dispatch(setCurrentUser(user)),
 });
 
-export default connect(null, mapDispatchToProps)(App);
+export default connect(mapStateToProps, mapDispatchToProps)(App);
