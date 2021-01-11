@@ -76,6 +76,7 @@ const mapStateToProps = ({ user }) => ({
   currentUser: user.currentUser,
 });
 
+// we need a function, hence using this
 const mapDispatchToProps = (dispatch) => ({
   setCurrentUser: (user) => dispatch(setCurrentUser(user)),
 });
