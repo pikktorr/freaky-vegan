@@ -18,7 +18,7 @@ const INITIAL_STATE = {
     },
     {
       title: "Main Dishes",
-      subtitle: "Order Now",
+      subtitle: "Order Now",  
       imageUrl:
         "https://images.unsplash.com/photo-1535923633864-cbf229ad891c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80",
       id: 3,

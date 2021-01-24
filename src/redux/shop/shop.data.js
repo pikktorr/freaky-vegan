@@ -1,8 +1,8 @@
-export const SHOP_DATA = [
-  {
+export const SHOP_DATA = {
+  ingredients: {
     id: 1,
     title: "Hats",
-    routeName: "hats",
+    routeName: "ingredients",
     items: [
       {
         id: 1,
@@ -60,10 +60,10 @@ export const SHOP_DATA = [
       },
     ],
   },
-  {
+  cakes: {
     id: 2,
     title: "Sneakers",
-    routeName: "sneakers",
+    routeName: "cakes",
     items: [
       {
         id: 10,
@@ -115,10 +115,10 @@ export const SHOP_DATA = [
       },
     ],
   },
-  {
+  dishes: {
     id: 3,
     title: "Jackets",
-    routeName: "jackets",
+    routeName: "dishes",
     items: [
       {
         id: 18,
@@ -152,10 +152,10 @@ export const SHOP_DATA = [
       },
     ],
   },
-  {
+  restaurants: {
     id: 4,
     title: "Womens",
-    routeName: "womens",
+    routeName: "restaurants",
     items: [
       {
         id: 23,
@@ -201,10 +201,10 @@ export const SHOP_DATA = [
       },
     ],
   },
-  {
+  cafes: {
     id: 5,
     title: "Mens",
-    routeName: "mens",
+    routeName: "cafes",
     items: [
       {
         id: 30,
@@ -244,4 +244,4 @@ export const SHOP_DATA = [
       },
     ],
   },
-];
+};
