@@ -1,246 +1,253 @@
 export const SHOP_DATA = {
   ingredients: {
     id: 1,
-    title: "Hats",
+    title: "Vegan Ingredients",
     routeName: "ingredients",
     items: [
       {
         id: 1,
-        name: "Brown Brim",
-        imageUrl: "https://i.ibb.co/ZYW3VTp/brown-brim.png",
-        price: 25,
+        name: "Carrot",
+        imageUrl:
+          "https://images.unsplash.com/photo-1580716685595-98bd80bf3c01?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=500&q=80",
+        price: 290,
       },
       {
         id: 2,
-        name: "Blue Beanie",
-        imageUrl: "https://i.ibb.co/ypkgK0X/blue-beanie.png",
-        price: 18,
+        name: "Almond",
+        imageUrl:
+          "https://images.unsplash.com/photo-1508061235804-9436954f042f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        price: 990,
       },
       {
         id: 3,
-        name: "Brown Cowboy",
-        imageUrl: "https://i.ibb.co/QdJwgmp/brown-cowboy.png",
-        price: 35,
+        name: "Sweet Potato",
+        imageUrl:
+          "https://images.unsplash.com/photo-1596097557993-8e4dea0ac47b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=500&q=80",
+        price: 650,
       },
       {
         id: 4,
-        name: "Grey Brim",
-        imageUrl: "https://i.ibb.co/RjBLWxB/grey-brim.png",
-        price: 25,
+        name: "Beans",
+        imageUrl:
+          "https://images.unsplash.com/photo-1579705745811-a32bef7856a3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        price: 500,
       },
       {
         id: 5,
-        name: "Green Beanie",
-        imageUrl: "https://i.ibb.co/YTjW3vF/green-beanie.png",
-        price: 18,
+        name: "Champignon",
+        imageUrl:
+          "https://images.unsplash.com/photo-1602277683097-3d6c108548fd?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTZ8fGNoYW1waWdub258ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        price: 490,
       },
       {
         id: 6,
-        name: "Palm Tree Cap",
-        imageUrl: "https://i.ibb.co/rKBDvJX/palm-tree-cap.png",
-        price: 14,
+        name: "Cashew",
+        imageUrl:
+          "https://images.unsplash.com/photo-1509912760195-4f6cfd8cce2c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=500&q=80",
+        price: 1100,
       },
       {
         id: 7,
-        name: "Red Beanie",
-        imageUrl: "https://i.ibb.co/bLB646Z/red-beanie.png",
-        price: 18,
+        name: "Pak Choi",
+        imageUrl:
+          "https://images.unsplash.com/photo-1511993226957-cd166aba52d8?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8cGFrJTIwY2hvaXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        price: 510,
       },
       {
         id: 8,
-        name: "Wolf Cap",
-        imageUrl: "https://i.ibb.co/1f2nWMM/wolf-cap.png",
-        price: 14,
+        name: "Tomato",
+        imageUrl:
+          "https://images.unsplash.com/photo-1485795046599-702122cd1267?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzR8fHRvbWF0b2VzfGVufDB8fDB8&auto=format&fit=crop&w=500&q=60",
+        price: 600,
       },
       {
         id: 9,
-        name: "Blue Snapback",
-        imageUrl: "https://i.ibb.co/X2VJP2W/blue-snapback.png",
-        price: 16,
+        name: "Avocado",
+        imageUrl:
+          "https://images.unsplash.com/photo-1587825045005-c9cc5fa27203?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fGF2b2NhZG98ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        price: 550,
       },
     ],
   },
   cakes: {
     id: 2,
-    title: "Sneakers",
+    title: "Vegan Confectionery",
     routeName: "cakes",
     items: [
       {
         id: 10,
-        name: "Adidas NMD",
-        imageUrl: "https://i.ibb.co/0s3pdnc/adidas-nmd.png",
-        price: 220,
+        name: "Pancakes with Fruits",
+        imageUrl:
+          "https://images.unsplash.com/photo-1598214887283-1b96ceceea96?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        price: 660,
       },
       {
         id: 11,
-        name: "Adidas Yeezy",
-        imageUrl: "https://i.ibb.co/dJbG1cT/yeezy.png",
-        price: 280,
+        name: "Pumpkin Cupcakes",
+        imageUrl:
+          "https://images.unsplash.com/photo-1511971288-e771480924d9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=5004&q=80",
+        price: 290,
       },
       {
         id: 12,
-        name: "Black Converse",
-        imageUrl: "https://i.ibb.co/bPmVXyP/black-converse.png",
-        price: 110,
+        name: "Autumn Pie",
+        imageUrl:
+          "https://images.unsplash.com/photo-1511999274094-689a928a70ca?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=500&q=80",
+        price: 1300,
       },
       {
         id: 13,
-        name: "Nike White AirForce",
-        imageUrl: "https://i.ibb.co/1RcFPk0/white-nike-high-tops.png",
-        price: 160,
+        name: "Minty Red Fruits Cake",
+        imageUrl:
+          "https://images.unsplash.com/photo-1519197462-7755f76e6fbd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        price: 1500,
       },
       {
         id: 14,
-        name: "Nike Red High Tops",
-        imageUrl: "https://i.ibb.co/QcvzydB/nikes-red.png",
-        price: 160,
+        name: "Purple Sauce Waffles",
+        imageUrl:
+          "https://images.unsplash.com/photo-1504387432042-8aca549e4729?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        price: 790,
       },
       {
         id: 15,
-        name: "Nike Brown High Tops",
-        imageUrl: "https://i.ibb.co/fMTV342/nike-brown.png",
-        price: 160,
+        name: "Cinnamon Rolls",
+        imageUrl:
+          "https://images.unsplash.com/photo-1573811409568-023d5d0110af?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        price: 540,
       },
       {
         id: 16,
-        name: "Air Jordan Limited",
-        imageUrl: "https://i.ibb.co/w4k6Ws9/nike-funky.png",
-        price: 190,
+        name: "Chocolate Cake",
+        imageUrl:
+          "https://images.unsplash.com/photo-1557243989-b761f0f1dc4e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        price: 1600,
       },
       {
         id: 17,
-        name: "Timberlands",
-        imageUrl: "https://i.ibb.co/Mhh6wBg/timberlands.png",
-        price: 200,
+        name: "Apple Pie",
+        imageUrl:
+          "https://images.unsplash.com/photo-1562007908-3584997fcbaa?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=500&q=80",
+        price: 1300,
       },
     ],
   },
   dishes: {
     id: 3,
-    title: "Jackets",
+    title: "Vegan Dishes",
     routeName: "dishes",
     items: [
       {
         id: 18,
-        name: "Black Jean Shearling",
-        imageUrl: "https://i.ibb.co/XzcwL5s/black-shearling.png",
-        price: 125,
+        name: "Avocado Tacos",
+        imageUrl:
+          "https://images.unsplash.com/photo-1511690078903-71dc5a49f5e3?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTZ8fHZlZ2FuJTIwZGlzaGVzfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        price: 1100,
       },
       {
         id: 19,
-        name: "Blue Jean Jacket",
-        imageUrl: "https://i.ibb.co/mJS6vz0/blue-jean-jacket.png",
-        price: 90,
+        name: "Leafy Pizza",
+        imageUrl:
+          "https://images.unsplash.com/photo-1511689660979-10d2b1aada49?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHZlZ2FuJTIwZGlzaGVzfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        price: 1300,
       },
       {
         id: 20,
-        name: "Grey Jean Jacket",
-        imageUrl: "https://i.ibb.co/N71k1ML/grey-jean-jacket.png",
-        price: 90,
+        name: "Vegan Burger",
+        imageUrl:
+          "https://images.unsplash.com/photo-1532768641073-503a250f9754?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzl8fHZlZ2FuJTIwaGFtYnVyZ2VyfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        price: 1600,
       },
       {
         id: 21,
-        name: "Brown Shearling",
-        imageUrl: "https://i.ibb.co/s96FpdP/brown-shearling.png",
-        price: 165,
+        name: "Tomato Soup with Mushrooms",
+        imageUrl:
+          "https://images.unsplash.com/photo-1603105037880-880cd4edfb0d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fHZlZ2FuJTIwZGlzaHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        price: 900,
       },
       {
         id: 22,
-        name: "Tan Trench",
-        imageUrl: "https://i.ibb.co/M6hHc3F/brown-trench.png",
-        price: 185,
+        name: "Pumpkin & Batata Soup",
+        imageUrl:
+          "https://images.unsplash.com/photo-1603208785984-cdf985beca7a?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTh8fHZlZ2FuJTIwZGlzaHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        price: 900,
       },
     ],
   },
   restaurants: {
     id: 4,
-    title: "Womens",
+    title: "Vegan Restaurants",
     routeName: "restaurants",
     items: [
       {
         id: 23,
-        name: "Blue Tanktop",
-        imageUrl: "https://i.ibb.co/7CQVJNm/blue-tank.png",
-        price: 25,
+        name: "A Fricska",
+        imageUrl:
+          "https://www.africska.hu/wp-content/uploads/2020/12/Fricska_barna_vegleges_500px.png",
+        location: "Szeged",
+        page: "https://www.africska.hu/",
       },
       {
         id: 24,
-        name: "Floral Blouse",
-        imageUrl: "https://i.ibb.co/4W2DGKm/floral-blouse.png",
-        price: 20,
+        name: "Natura Hill",
+        imageUrl:
+          "https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://naturahill.hu/wp-content/uploads/natura_hill_zebegeny_logo3-300x213-1.jpg",
+        location: "Zebegény",
+        page: "https://naturahill.hu/",
       },
       {
         id: 25,
-        name: "Floral Dress",
-        imageUrl: "https://i.ibb.co/KV18Ysr/floral-skirt.png",
-        price: 80,
+        name: "Mandala",
+        imageUrl:
+          "https://scontent.fbud4-1.fna.fbcdn.net/v/t1.0-9/49167962_2004721949829817_1742215455981961216_n.png?_nc_cat=101&ccb=2&_nc_sid=09cbfe&_nc_ohc=8u5pOIDK6mYAX96_9sI&_nc_ht=scontent.fbud4-1.fna&oh=9d82af353e621ff99c3452c1f23b0ec3&oe=603388F4",
+        location: "Pécs",
+        page: "https://www.facebook.com/mandalaetterem/",
       },
       {
         id: 26,
-        name: "Red Dots Dress",
-        imageUrl: "https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png",
-        price: 80,
-      },
-      {
-        id: 27,
-        name: "Striped Sweater",
-        imageUrl: "https://i.ibb.co/KmSkMbH/striped-sweater.png",
-        price: 45,
-      },
-      {
-        id: 28,
-        name: "Yellow Track Suit",
-        imageUrl: "https://i.ibb.co/v1cvwNf/yellow-track-suit.png",
-        price: 135,
-      },
-      {
-        id: 29,
-        name: "White Blouse",
-        imageUrl: "https://i.ibb.co/qBcrsJg/white-vest.png",
-        price: 20,
+        name: "Fittanyuka",
+        imageUrl: "https://fittanyuka.hu/wp-content/uploads/2018/02/logo.png",
+        location: "Szeged",
+        page: "https://fittanyuka.hu/",
       },
     ],
   },
   cafes: {
     id: 5,
-    title: "Mens",
+    title: "Vegan Cafes",
     routeName: "cafes",
     items: [
       {
+        id: 27,
+        name: "Süti Nem Süti",
+        imageUrl:
+          "https://scontent.fbud5-1.fna.fbcdn.net/v/t1.0-9/88101395_3273043726057495_567046733746405376_o.jpg?_nc_cat=110&ccb=2&_nc_sid=09cbfe&_nc_ohc=-2Tst975eDEAX_s6fw2&_nc_ht=scontent.fbud5-1.fna&oh=b9adbae93c2717095a4987454f1ecb75&oe=60428A21",
+        location: "Szeged",
+        page: "https://www.facebook.com/sutinemsuti44/",
+      },
+      {
+        id: 28,
+        name: "Helyben Kávézó",
+        imageUrl:
+          "https://scontent.fbud5-1.fna.fbcdn.net/v/t1.0-9/72783410_553124441895135_4464709922570895360_n.png?_nc_cat=111&ccb=2&_nc_sid=09cbfe&_nc_ohc=tnRZ5hpkRk8AX88HYJs&_nc_ht=scontent.fbud5-1.fna&oh=d5ad342db76277b35c8c65326ce48e4c&oe=604247A5",
+        location: "Zebegény",
+        page: "https://www.facebook.com/helyben/",
+      },
+      {
+        id: 29,
+        name: "LYR",
+        imageUrl:
+          "https://scontent.fbud5-1.fna.fbcdn.net/v/t1.0-9/29573368_1289068231226205_7618771650605857675_n.jpg?_nc_cat=106&ccb=2&_nc_sid=174925&_nc_ohc=GAr9ugqBIFgAX-QWeW5&_nc_ht=scontent.fbud5-1.fna&oh=532ece6926e755ea5ce1cf21e3be351b&oe=6045C4E6",
+        location: "Pécs",
+        page: "https://www.facebook.com/lyrcoffeeandfood/",
+      },
+      {
         id: 30,
-        name: "Camo Down Vest",
-        imageUrl: "https://i.ibb.co/xJS0T3Y/camo-vest.png",
-        price: 325,
-      },
-      {
-        id: 31,
-        name: "Floral T-shirt",
-        imageUrl: "https://i.ibb.co/qMQ75QZ/floral-shirt.png",
-        price: 20,
-      },
-      {
-        id: 32,
-        name: "Black & White Longsleeve",
-        imageUrl: "https://i.ibb.co/55z32tw/long-sleeve.png",
-        price: 25,
-      },
-      {
-        id: 33,
-        name: "Pink T-shirt",
-        imageUrl: "https://i.ibb.co/RvwnBL8/pink-shirt.png",
-        price: 25,
-      },
-      {
-        id: 34,
-        name: "Jean Long Sleeve",
-        imageUrl: "https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png",
-        price: 40,
-      },
-      {
-        id: 35,
-        name: "Burgundy T-shirt",
-        imageUrl: "https://i.ibb.co/mh3VM1f/polka-dot-shirt.png",
-        price: 25,
+        name: "Szafi Smart Reform Shop",
+        imageUrl:
+          "https://scontent.fbud5-1.fna.fbcdn.net/v/t1.0-9/121693638_3609678232417316_774782453897606969_n.jpg?_nc_cat=108&ccb=2&_nc_sid=174925&_nc_ohc=5UtkovLh204AX9EPA_z&_nc_ht=scontent.fbud5-1.fna&oh=c123ffebef06be0a1a4cb499b02382d9&oe=60459291",
+        location: "Szeged",
+        page: "https://www.facebook.com/szafishopszeged",
       },
     ],
   },

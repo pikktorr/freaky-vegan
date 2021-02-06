@@ -1,5 +1,5 @@
 button {
-  background-color: transparent;
+  background-color: white;
   font-family: inherit;
   &:focus {
     outline: none;
@@ -7,7 +7,7 @@ button {
 }
 
 .custom-button {
-  border: 1px solid #06aa51;
+  border: 2px solid #06aa51;
   border-radius: 6px;
   cursor: pointer;
   font-size: 16px;
@@ -17,20 +17,19 @@ button {
   width: 120px;
 
   &:focus {
-    border: 3px solid #06aa51;
+    border: 4px solid #06aa51;
   }
 
   &.google-sign-in {
-    border: 1px solid #4285f4;
+    border: 2px solid #4285f4;
     &:focus {
-      border: 3px solid #4285f4;
+      border: 4px solid #4285f4;
     }
   }
 }
 
 .add-to-cart {
-  background-color: white;
   &:focus {
-    border: 3px solid#06aa51;
+    border: 4px solid#06aa51;
   }
 }

@@ -18,7 +18,7 @@ const INITIAL_STATE = {
     },
     {
       title: "Main Dishes",
-      subtitle: "Order Now",  
+      subtitle: "Order Now",
       imageUrl:
         "https://images.unsplash.com/photo-1535923633864-cbf229ad891c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80",
       id: 3,
@@ -31,7 +31,7 @@ const INITIAL_STATE = {
         "https://images.unsplash.com/photo-1571649425823-e0f27d67d0bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1575&q=80",
       size: "large",
       id: 4,
-      linkUrl: "search/restaurants",
+      linkUrl: "shop/restaurants",
     },
     {
       title: "Cafes",
@@ -40,7 +40,7 @@ const INITIAL_STATE = {
         "https://images.unsplash.com/photo-1598515502237-ee975b5a6e03?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1533&q=80",
       size: "large",
       id: 5,
-      linkUrl: "search/cafe",
+      linkUrl: "shop/cafes",
     },
   ],
 };

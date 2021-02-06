@@ -5,3 +5,4 @@
 [0120/220936.663:ERROR:process_info.cc(556)] ReadMemoryInfo failed
 [0120/220936.663:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Kísérlet történt egy éppen kilépõ folyamat elérésére. (0xc000010a)
 [0121/191742.435:ERROR:directory_reader_win.cc(43)] FindFirstFile: A rendszer nem találja a megadott elérési utat. (0x3)
+[0124/114559.781:ERROR:directory_reader_win.cc(43)] FindFirstFile: A rendszer nem találja a megadott elérési utat. (0x3)
