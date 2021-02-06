@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: "Dosis", sans-serif;
+  /* font-family: 'Sofia', cursive; */
   min-height: 100vh;
   padding: 0 60px;
 }
